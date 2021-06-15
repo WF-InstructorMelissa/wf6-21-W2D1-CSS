@@ -1,1 +1,10 @@
-# wf6-21-W2D1-CSS
+# Web Fundamentals - Week 2 Session 1 6/15
+
+Agenda:
+1. Assignments due this week
+2. Planning your HTML document - what sections to have = Lego concept
+3. CSS Reset
+4. Flexbox
+5. Bootstrap
+6. Responsivness
+7. LESS
