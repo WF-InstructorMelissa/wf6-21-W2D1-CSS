@@ -1,0 +1,35 @@
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background-color: #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+body header nav {
+  background-color: #49153c;
+  color: #e8e8e8;
+}
+body .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

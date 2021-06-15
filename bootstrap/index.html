@@ -1,0 +1,86 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+    <title>BootStrap</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles -->
+    <link href="./css/styles.css" rel="stylesheet">
+  </head>
+  <body>
+      <!-- 
+          1. nav-bar gives default styling from bootstrap
+          2. navbar-light states that we want a lighter background
+          3. Color was changed using our external css.
+          4. fixed-top moves the navigation bar to the top of the page
+          5. navbar-expand-sm is a responsive setting.  Telling the browser that at a certain width please expand the nav otherwise use hamburger -->
+    <nav class="nav-bar navbar-light fixed-top navbar-expand-sm">
+        <!-- .navbar-brand for your company, product, or project name -->
+        <a class="navbar-brand" href="#">Navbar</a>
+        <!-- This button is for the responsive side of the site.  So when on smaller screens you should see the hamburger icon (which will also be set below) -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- Here is where we are setting our hamburger icon -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  <!-- .collapse.navbar-collapse for grouping and hiding navbar contents by a parent breakpoint. -->
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <!-- 
+                1 .navbar-nav for a full-height and lightweight navigation (including support for dropdowns).
+                2 the mr-auto helps align the search element to the right -->
+          <ul class="navbar-nav mr-auto">
+              <!-- 
+                  1. Active sets it so that this particular link is slightly different as it is the page you are on -->
+            <li class="active">
+                <!-- nav-link adds additional styling to the individual links -->
+              <a class="nav-link" href="#">Home <span class="">(current)</span></a>
+            </li>
+            <li>
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="">
+                <!-- Notice the difference on how disabled link looks compared toe the others -->
+              <a href="#">Disabled</a>
+            </li>
+          </ul>
+          <form class="">
+            <input class="" type="text" placeholder="Search" aria-label="Search">
+            <!-- Here we gave it a green outline by using btn-outline-success -->
+            <button class="btn-outline-success" type="submit">Search</button>
+            <input class="" type="text" placeholder="Email" aria-label="Email">
+            <button class="btn-dark" type="submit">Submit</button>
+          </form>
+        </div>
+      </nav>
+<!-- Adding the class jumbotron makes have a pre determined background and spacing -->
+    <main role="main" class="jumbotron">
+<!-- This is in our external css -->
+      <div class="starter-template">
+        <h1>Bootstrap starter</h1>
+        <p>To all of the common core taught math kids, it's about to get real, carry that one. If you had asked me what the hardest part of battling a global pandemic would be, I would have never guessed teaching elementary school math. Me in 2019, If I could just have like a week with nothing to do and nowhere to go I could finally get this house clean and organized. Turns out that time was not the problem.</p>
+      </div>
+      <p>If you had asked me what the hardest part of battling a global pandemic would be, I would have never guessed teaching elementary school math. Me in 2019, If I could just have like a week with nothing to do and nowhere to go I could finally get this house clean and organized. Turns out that time was not the problem. Due to quarantine, I'll only be telling inside jokes. If there's one thing that scares me more than an apocalyptic end of the world, it’s the possibility that if my kids fail at homeschooling they have to retake it.</p>
+
+    </main>
+    <!-- Adding the class jumbotron makes have a pre determined background and spacing -->
+    <main role="main" class="jumbotron-fluid">
+        <!-- This is in our external css -->
+              <div class="starter-template">
+                <h1>Bootstrap starter</h1>
+                <p>To all of the common core taught math kids, it's about to get real, carry that one. If you had asked me what the hardest part of battling a global pandemic would be, I would have never guessed teaching elementary school math. Me in 2019, If I could just have like a week with nothing to do and nowhere to go I could finally get this house clean and organized. Turns out that time was not the problem.</p>
+              </div>
+              <p>If you had asked me what the hardest part of battling a global pandemic would be, I would have never guessed teaching elementary school math. Me in 2019, If I could just have like a week with nothing to do and nowhere to go I could finally get this house clean and organized. Turns out that time was not the problem. Due to quarantine, I'll only be telling inside jokes. If there's one thing that scares me more than an apocalyptic end of the world, it’s the possibility that if my kids fail at homeschooling they have to retake it.</p>
+        
+            </main>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

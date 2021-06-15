@@ -1,0 +1,42 @@
+// In order to use LESS you will need to have a less complier extension installed on VS Code.  So every time you save this document it will auto update/create it's equivalent css doc. 
+
+// These items are variables.  Use this when there is some piece of styling that you might not remember but want to use through out.  
+@navbg: #49153c; // I can use this later to style the color of text or a background just by calling @navbg
+@500: ~"only screen and (min-width: 500px)"; // Here I can use this when I want to add responsiveness to my page and just call @500 instead of the whole line
+@altbg: #e8e8e8;
+@border: 3px groove @altbg;
+
+// These are mixin's.  These are great for a few lines of code that you know you will use often in your styling so you only write it once and then use the shortcut
+.flexrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+// I use these 2 a lot and instead of typing the same 4 lines over and over I just call .flexrow(); or column
+
+
+//  Now we can get to the actual styling
+body {
+    background-color: @altbg;
+    .flexcolumn();
+
+    header {
+        .flexrow();
+
+        nav {
+            background-color: @navbg;
+            color: @altbg;
+        }
+    }
+    .main {
+        .flexcolumn();
+        
+    }
+}
