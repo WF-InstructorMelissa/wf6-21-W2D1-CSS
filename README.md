@@ -8,3 +8,11 @@ Agenda:
 5. Bootstrap
 6. Responsivness
 7. LESS
+
+
+https://meyerweb.com/eric/tools/css/reset/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+
+
+For LESS install easy less extension

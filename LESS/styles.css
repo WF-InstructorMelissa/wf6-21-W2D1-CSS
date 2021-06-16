@@ -22,6 +22,8 @@ body header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  border: 3px groove #e8e8e8;
+  background-color: red;
 }
 body header nav {
   background-color: #49153c;
@@ -32,4 +34,9 @@ body .main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (min-width: 500px) {
+  body {
+    background-color: red;
+  }
 }
